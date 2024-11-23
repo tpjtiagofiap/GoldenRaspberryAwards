@@ -1,4 +1,4 @@
-﻿namespace GoldenRaspberryAwards.Api.Models
+﻿namespace GoldenRaspberryAwards.Core.Models
 {
     public class ProducerInterval
     {

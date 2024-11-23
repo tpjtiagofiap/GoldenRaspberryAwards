@@ -1,4 +1,4 @@
-﻿namespace GoldenRaspberryAwards.Api.Contracts
+﻿namespace GoldenRaspberryAwards.Applicaction.Contracts
 {
     public interface IDataLoaderService
     {

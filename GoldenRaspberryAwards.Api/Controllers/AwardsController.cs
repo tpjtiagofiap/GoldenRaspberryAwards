@@ -1,4 +1,4 @@
-﻿using GoldenRaspberryAwards.Api.Contracts;
+﻿using GoldenRaspberryAwards.Applicaction.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GoldenRaspberryAwards.Api.Controllers

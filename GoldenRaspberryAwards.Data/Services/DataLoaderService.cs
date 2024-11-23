@@ -1,12 +1,11 @@
 ﻿using CsvHelper;
 using CsvHelper.Configuration;
-using GoldenRaspberryAwards.Api.Contracts;
-using GoldenRaspberryAwards.Api.Data;
-using GoldenRaspberryAwards.Api.Mappings;
-using GoldenRaspberryAwards.Api.Models;
+using GoldenRaspberryAwards.Core.Mappings;
+using GoldenRaspberryAwards.Core.Contracts;
+using GoldenRaspberryAwards.Core.Models;
 using System.Globalization;
 
-namespace GoldenRaspberryAwards.Api.Services
+namespace GoldenRaspberryAwards.Data.Services
 {
     public class DataLoaderService : IDataLoaderService
     {
@@ -29,7 +28,6 @@ namespace GoldenRaspberryAwards.Api.Services
             using var reader = new StreamReader(filePath);
             using var csv = new CsvReader(reader, config);
 
-            // Registra o mapeamento personalizado
             csv.Context.RegisterClassMap<MovieMap>();
 
             var movies = csv.GetRecords<Movie>().ToList();

@@ -2,7 +2,7 @@
 using CsvHelper.TypeConversion;
 using CsvHelper;
 
-namespace GoldenRaspberryAwards.Api.Helpers
+namespace GoldenRaspberryAwards.Core.Helpers
 {
     public class YesNoBooleanConverter : ITypeConverter
     {

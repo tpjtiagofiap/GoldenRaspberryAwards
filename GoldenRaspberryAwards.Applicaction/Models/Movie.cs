@@ -1,4 +1,4 @@
-﻿namespace GoldenRaspberryAwards.Api.Models
+﻿namespace GoldenRaspberryAwards.Applicaction.Models
 {
     public class Movie
     {
@@ -7,6 +7,6 @@
         public string Studios { get; set; }
         public int Year { get; set; }
         public bool IsWinner { get; set; }
-        public string Producers { get; set; }
+        public string? Producers { get; set; }
     }
 }

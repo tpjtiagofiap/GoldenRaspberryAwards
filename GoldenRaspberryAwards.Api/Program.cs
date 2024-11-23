@@ -1,7 +1,8 @@
-using GoldenRaspberryAwards.Api.Contracts;
-using GoldenRaspberryAwards.Api.Data;
-using GoldenRaspberryAwards.Api.Services;
+using GoldenRaspberryAwards.Data.Services;
+using GoldenRaspberryAwards.Applicaction.Contracts;
+using GoldenRaspberryAwards.Data;
 using Microsoft.EntityFrameworkCore;
+using GoldenRaspberryAwards.Core.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 

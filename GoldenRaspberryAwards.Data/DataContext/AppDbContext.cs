@@ -1,7 +1,8 @@
-﻿using GoldenRaspberryAwards.Api.Models;
+﻿
+using GoldenRaspberryAwards.Core.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace GoldenRaspberryAwards.Api.Data
+namespace GoldenRaspberryAwards.Data
 {
     public class AppDbContext : DbContext
     {

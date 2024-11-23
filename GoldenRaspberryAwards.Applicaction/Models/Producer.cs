@@ -1,4 +1,4 @@
-﻿namespace GoldenRaspberryAwards.Api.Models
+﻿namespace GoldenRaspberryAwards.Applicaction.Models
 {
     public class Producer
     {
